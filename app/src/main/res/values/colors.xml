@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="header_bg">#233239</color>-->
+    <!--<color name="drawer_bg">#36474F</color>-->
+    <!--<color name="colorPrimaryDark">#1db78c</color>-->
+    <!--<color name="colorPrimary">#109570</color>-->
+
+    <color name="bg">#330038c8</color>
+    <color name="colorPrimary">#1b7ae6</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <!--<color name="colorPrimaryDark">#0071CD</color>-->
+
+    <color name="header_bg">@color/colorPrimaryDark</color>
+    <color name="drawer_bg">@color/colorPrimary</color>
+
+
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorAccent">#FF5722</color>
+
+    <color name="transparent_bg">#00000000</color>
+
+    <color name="bg_btn_retrieve">#009f3c</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <!--<color name="header_bg">#233239</color>-->
+    <!--<color name="drawer_bg">#36474F</color>-->
+
+    <color name="colorPrimary2">#8F3E97</color>
+    <color name="colorPrimaryDark2">#773292</color>
+
+    <color name="windowBackground">#E1E6EB</color>
+
+    <color name="selectedNavigationItem">#EDEDED</color>
+    <color name="light_gray">#A4A4A4</color>
+    <color name="light_light_gray">#dedfe5</color>
+
+    <color name="light_green">#00c652</color>
+    <color name="mainBg">#333333</color>
+    <color name="drawerBackground">#131417</color>
+    <color name="grey_light">#CCCCCC</color>
+
+    <color name="blue_find">#1F70C3</color>
+    <color name="blue">#00b8f4</color>
+    <color name="light_blue1">#01a2ff</color>
+    <color name="light_orange">#ff6101</color>
+    <color name="purple">#8504e0</color>
+    <color name="light_purple">#fd25d2</color>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/forecastDateTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select City"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white" />
+
+            <!--<Spinner-->
+                <!--android:id="@+id/settingDaysSpinner"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="20dp" />-->
+
+            <Button
+                android:id="@+id/homeRetrieveBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_btn_retrieve"
+                android:text="Retrieve"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/bg" >
+
+        <ImageView
+            android:id="@+id/weatherBgImage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:id="@+id/weatherLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="15dp" >
+
+                    <ImageView
+                        android:id="@+id/homeWeatherIconImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/homeWeatherStatusTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp" >
+
+                    <TextView
+                        android:id="@+id/homeWeatherCelTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/homeWeatherFahTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/homeWeatherCityTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/homeObservationTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+</LinearLayout>
